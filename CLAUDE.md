@@ -91,6 +91,10 @@ v2 specifically wants *less* copy than v1 — every remaining sentence should ea
 - `content/portfolio.md` — background, experience, project facts, target audience, positioning
 - `content/design.md` — visual direction, design tokens, component states, motion principles (placeholder until design direction is decided)
 
+## Git Conventions
+- **Branches:** descriptive and relevant to the work, not a randomly generated name. If a session starts on an auto-generated branch name, rename it (`git branch -m <name>`) before pushing. Prefer `type/short-description` (e.g. `feat/scaffold-foundation`, `fix/nav-overflow-mobile`).
+- **Commit messages:** succinct — a short imperative subject line describing what changed and why. Avoid long itemized bodies unless the change is genuinely non-obvious enough to need one.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know
