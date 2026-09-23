@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/*
+ * No design tokens yet — visual direction is still pending (see
+ * docs/v1-retrospective.md and content/design.md). Add tokens here as
+ * `:root { --token-name: value }` once decided; avoid one-off hex/px values
+ * in components, per the v1 retrospective's "promote it to a token" rule.
+ */
